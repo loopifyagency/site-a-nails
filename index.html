@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>A.Nails Ongles · Prothésiste ongulaire à Brest</title>
+  <meta name="description" content="A.Nails Ongles, prothésiste ongulaire à Brest (61 rue de Lanninguer) : capsules, gel et nail art posés avec minutie. Réservez en ligne ou appelez le 06 23 90 54 49.">
+  <meta name="theme-color" content="#14061f">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="A.Nails Ongles · Prothésiste ongulaire à Brest">
+  <meta property="og:description" content="Capsules, gel et nail art à Brest, dans un accueil chaleureux. Prenez rendez-vous en ligne.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bodoni-moda-latin-wght-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NailSalon",
+    "name": "A.Nails Ongles Prothésiste Ongulaire",
+    "description": "Prothésiste ongulaire à Brest : pose de capsules, gel et nail art.",
+    "telephone": "+33623905449",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "61 Rue de Lanninguer",
+      "postalCode": "29200",
+      "addressLocality": "Brest",
+      "addressCountry": "FR"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday"], "opens": "09:30", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "12:30", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "11:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:30", "closes": "14:00" }
+    ],
+    "hasMap": "https://maps.app.goo.gl/89XiCBpKGDBKvMV59",
+    "sameAs": ["https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- ─────────── Définitions SVG partagées (formes d'ongles, icônes) ─────────── -->
+  <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <clipPath id="clip-amande" clipPathUnits="objectBoundingBox"><path d="M0.5,0 C0.58,0.1 1,0.36 1,0.68 L1,1 L0,1 L0,0.68 C0,0.36 0.42,0.1 0.5,0Z"/></clipPath>
+      <clipPath id="clip-stiletto" clipPathUnits="objectBoundingBox"><path d="M0.5,0 C0.56,0.2 1,0.55 1,0.78 L1,1 L0,1 L0,0.78 C0,0.55 0.44,0.2 0.5,0Z"/></clipPath>
+      <clipPath id="clip-arche" clipPathUnits="objectBoundingBox"><path d="M0,1 L0,0.5 C0,0.22 0.22,0 0.5,0 C0.78,0 1,0.22 1,0.5 L1,1Z"/></clipPath>
+      <clipPath id="clip-losange" clipPathUnits="objectBoundingBox"><path d="M0.5,0 L1,0.5 L0.5,1 L0,0.5Z"/></clipPath>
+            <pattern id="lat-light" width="96" height="96" patternUnits="userSpaceOnUse"><path d="M48 0 96 48 48 96 0 48Z" fill="none" stroke="rgba(248,235,247,.09)"/><path d="M48 18 78 48 48 78 18 48Z" fill="none" stroke="rgba(248,235,247,.09)"/><circle cx="48" cy="48" r="2.2" fill="rgba(248,235,247,.09)"/></pattern>
+      <pattern id="lat-violet" width="96" height="96" patternUnits="userSpaceOnUse"><path d="M48 0 96 48 48 96 0 48Z" fill="none" stroke="rgba(168,58,209,.2)"/><path d="M48 18 78 48 48 78 18 48Z" fill="none" stroke="rgba(168,58,209,.2)"/><circle cx="48" cy="48" r="2.2" fill="rgba(168,58,209,.2)"/></pattern>
+      <pattern id="lat-mint" width="96" height="96" patternUnits="userSpaceOnUse"><path d="M48 0 96 48 48 96 0 48Z" fill="none" stroke="rgba(5,236,204,.22)"/><path d="M48 18 78 48 48 78 18 48Z" fill="none" stroke="rgba(5,236,204,.22)"/><circle cx="48" cy="48" r="2.2" fill="rgba(5,236,204,.22)"/></pattern>
+      <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 0C12.8 7.5 16.5 11.2 24 12 16.5 12.8 12.8 16.5 12 24 11.2 16.5 7.5 12.8 0 12 7.5 11.2 11.2 7.5 12 0Z"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-quote" viewBox="0 0 64 48"><path d="M0 48V28C0 12 9 2 24 0l2 7C17 9 14 15 14 22h12v26H0Zm38 0V28C38 12 47 2 62 0l2 7c-9 2-12 8-12 15h12v26H38Z"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V5M5 11l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    </defs>
+  </svg>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <canvas class="glitter" aria-hidden="true"></canvas>
+
+  <!-- ─────────── Préchargeur ─────────── -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <svg class="loader__veil" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <mask id="loader-mask">
+          <rect x="-400" y="-400" width="900" height="900" fill="#fff"/>
+          <path class="loader__hole" d="M50 44 C51.6 45.4 53 47.8 53 50 L53 54 L47 54 L47 50 C47 47.8 48.4 45.4 50 44Z" fill="#000"/>
+        </mask>
+      </defs>
+      <rect x="-400" y="-400" width="900" height="900" fill="#14061f" mask="url(#loader-mask)"/>
+    </svg>
+    <div class="loader__core">
+      <svg class="loader__nails" viewBox="0 0 250 72" fill="none">
+        <g class="ln" data-c="#05eccc"><path d="M25 4C29.6 8 42 22 42 40V64H8V40C8 22 20.4 8 25 4Z"/></g>
+        <g class="ln" data-c="#d93ea4" transform="translate(48 0)"><path d="M25 4C29.6 8 42 22 42 40V64H8V40C8 22 20.4 8 25 4Z"/></g>
+        <g class="ln" data-c="#a83ad1" transform="translate(96 0)"><path d="M25 4C29.6 8 42 22 42 40V64H8V40C8 22 20.4 8 25 4Z"/></g>
+        <g class="ln" data-c="#fff6fb" transform="translate(144 0)"><path d="M25 4C29.6 8 42 22 42 40V64H8V40C8 22 20.4 8 25 4Z"/></g>
+        <g class="ln" data-c="#d93ea4" transform="translate(192 0)"><path d="M25 4C29.6 8 42 22 42 40V64H8V40C8 22 20.4 8 25 4Z"/></g>
+      </svg>
+      <p class="loader__name">A.Nails</p>
+      <p class="loader__count"><span id="loader-count">0</span><small>%</small></p>
+    </div>
+  </div>
+
+  <!-- ─────────── Navigation ─────────── -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#accueil" aria-label="A.Nails Ongles, retour à l'accueil">
+      <span>A.Nails</span><small>Ongles</small>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#rituel">Rituel</a>
+      <a href="#creations">Créations</a>
+      <a href="#atelier">Atelier</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn--mint btn--sm nav__cta" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener" data-magnetic><span class="btn__fill"></span><span class="btn__label">Rendez-vous</span></a>
+    <button class="nav__burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" data-lenis-prevent>
+    <nav class="menu__inner" aria-label="Menu mobile">
+      <a href="#rituel"><span>Rituel</span></a>
+      <a href="#creations"><span>Créations</span></a>
+      <a href="#atelier"><span>Atelier</span></a>
+      <a href="#galerie"><span>Galerie</span></a>
+      <a href="#avis"><span>Avis</span></a>
+      <a href="#contact"><span>Contact</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a href="tel:+33623905449">06 23 90 54 49</a>
+      <a href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener">Réserver sur Planity</a>
+    </div>
+  </div>
+
+  <main id="contenu">
+
+    <!-- ═════════════ 1 · HERO ═════════════ -->
+    <section class="hero" id="accueil" data-glitter>
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__bloom hero__bloom--violet" data-depth="0.10"></div>
+        <div class="hero__bloom hero__bloom--magenta" data-depth="0.18"></div>
+        <div class="hero__bloom hero__bloom--mint" data-depth="0.26"></div>
+        <svg class="hero__lattice" data-depth="0.06" width="100%" height="100%"><rect width="100%" height="100%" fill="url(#lat-light)"/>
+        </svg>
+      </div>
+
+      <div class="hero__cluster" aria-hidden="false">
+        <div class="hero__item hero__item--a" data-depth="0.22">
+          <figure class="frame frame--amande" style="--clip:url(#clip-amande);--ar:3/4.1;--ring:var(--magenta)">
+            <div class="frame__in"><img src="assets/img/photo-3.jpg" width="606" height="810" alt="Ongles stiletto longs en violet pailleté et noir brillant, posés sur un pull en maille blanc" fetchpriority="high" decoding="async"></div>
+          </figure>
+        </div>
+        <div class="hero__item hero__item--b" data-depth="0.38">
+          <figure class="frame frame--round" style="--ar:1;--ring:var(--menthe)">
+            <div class="frame__in"><img src="assets/img/photo-2.jpg" width="609" height="456" alt="Pose French en V blanc sur ongles amande rose nude, devant une rose" decoding="async"></div>
+          </figure>
+        </div>
+        <div class="hero__item hero__item--c" data-depth="0.14">
+          <figure class="frame frame--losange" style="--clip:url(#clip-losange);--ar:1;--ring:var(--violet)">
+            <div class="frame__in"><img src="assets/img/photo-5.jpg" width="585" height="489" alt="Ongles amande menthe velours et motifs de feuillages bleutés, avec un pompon blanc" decoding="async"></div>
+          </figure>
+        </div>
+        <svg class="spark hero__spark hero__spark--1" data-depth="0.5" aria-hidden="true"><use href="#i-sparkle"/></svg>
+        <svg class="spark hero__spark hero__spark--2" data-depth="0.7" aria-hidden="true"><use href="#i-sparkle"/></svg>
+        <svg class="spark hero__spark hero__spark--3" data-depth="0.3" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      </div>
+
+      <div class="hero__body">
+        <h1 class="hero__title" aria-label="A.Nails Ongles, prothésiste ongulaire à Brest">
+          <span class="hero__name" aria-hidden="true">A<span class="dot">.</span>Nails</span>
+          <span class="hero__sub" aria-hidden="true">Ongles <i></i> prothésiste ongulaire à Brest</span>
+        </h1>
+        <p class="hero__hook">Vos mains, version gala.</p>
+        <p class="hero__lead">Capsules, gel et nail art, posés avec minutie dans un accueil chaleureux, au 61 rue de Lanninguer.</p>
+        <div class="hero__actions">
+          <a class="btn btn--mint btn--lg" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener" data-magnetic><span class="btn__fill"></span><span class="btn__label">Prendre rendez-vous</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost btn--lg" href="tel:+33623905449" data-magnetic><span class="btn__fill"></span><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span class="btn__label">06 23 90 54 49</span></a>
+        </div>
+        <p class="status" id="status" aria-live="polite"><i class="status__dot" aria-hidden="true"></i><span id="status-text">Horaires ci-dessous</span></p>
+      </div>
+
+      <a class="hero__scroll" href="#rituel" aria-label="Défiler vers le rituel"><span>Défiler</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- ═════════════ 2 · MARQUEE ═════════════ -->
+    <div class="bands" aria-hidden="true">
+      <div class="band band--mag" data-marquee="-1">
+        <div class="band__track">
+          <ul>
+            <li>Capsules</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Gel</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Nail art</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>French en V</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Stiletto</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Amande</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Pastel mat</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Paillettes</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li>
+          </ul>
+          <ul>
+            <li>Capsules</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Gel</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Nail art</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>French en V</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Stiletto</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Amande</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Pastel mat</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Paillettes</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li>
+          </ul>
+        </div>
+      </div>
+      <div class="band band--mint" data-marquee="1">
+        <div class="band__track">
+          <ul>
+            <li>Minutie</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Écoute</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Éclat</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Brest</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Tenue</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Fantaisie</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Sourire</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li>
+          </ul>
+          <ul>
+            <li>Minutie</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Écoute</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Éclat</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Brest</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Tenue</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Fantaisie</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li><li>Sourire</li><li class="sp"><svg><use href="#i-sparkle"/></svg></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═════════════ 3 · RITUEL (section épinglée) ═════════════ -->
+    <section class="story" id="rituel" aria-labelledby="story-title">
+      <div class="sep sep--arches" aria-hidden="true"></div>
+      <div class="story__pin">
+        <svg class="story__lattice" aria-hidden="true" width="100%" height="100%"><rect width="100%" height="100%" fill="url(#lat-violet)"/></svg>
+        <header class="story__head">
+          <h2 class="display" id="story-title" data-split="words-left">Un rituel en cinq gestes</h2>
+        </header>
+
+        <div class="story__stage">
+          <div class="story__count" aria-hidden="true">
+            <div class="story__roll"><div class="story__roll-in"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span></div></div>
+            <small>/ 05</small>
+          </div>
+
+          <div class="story__steps">
+            <article class="step" data-step>
+              <div class="step__text">
+                <h3 class="step__title">On commence par parler</h3>
+                <p>Une photo d’inspiration, une couleur, une envie : Aurélie écoute, conseille, puis reproduit ce que vous imaginez. « À la perfection », disent ses clientes.</p>
+              </div>
+              <figure class="step__fig frame frame--amande" style="--clip:url(#clip-amande);--ar:3/4;--ring:var(--magenta)">
+                <div class="frame__in"><div class="reveal"><img src="assets/img/photo-2.jpg" width="609" height="456" alt="Pose French en V blanc sur ongles amande rose nude, devant une rose" loading="lazy" decoding="async"></div></div>
+              </figure>
+            </article>
+            <article class="step" data-step>
+              <div class="step__text">
+                <h3 class="step__title">On choisit la forme</h3>
+                <p>Amande, stiletto, courte ou longue. La forme change tout : elle allonge les doigts, affirme le style et décide de l’allure du set.</p>
+              </div>
+              <figure class="step__fig frame frame--stiletto" style="--clip:url(#clip-stiletto);--ar:3/4;--ring:var(--violet)">
+                <div class="frame__in"><div class="reveal"><img src="assets/img/photo-3.jpg" width="606" height="810" alt="Ongles stiletto longs en violet pailleté et noir brillant" loading="lazy" decoding="async"></div></div>
+              </figure>
+            </article>
+            <article class="step" data-step>
+              <div class="step__text">
+                <h3 class="step__title">La pose, sans précipitation</h3>
+                <p>Capsules ou gel, selon vos habitudes et vos envies. Chaque ongle est ajusté avec minutie, pour une pose nette et confortable.</p>
+              </div>
+              <figure class="step__fig frame frame--amande" style="--clip:url(#clip-amande);--ar:3/4;--ring:var(--menthe)">
+                <div class="frame__in"><div class="reveal"><img src="assets/img/photo-1.jpg" width="609" height="342" alt="Ongles amande en pastel mat : menthe, rose poudré, blanc et lilas" loading="lazy" decoding="async"></div></div>
+              </figure>
+            </article>
+            <article class="step" data-step>
+              <div class="step__text">
+                <h3 class="step__title">Le décor qui signe</h3>
+                <p>Pastel mat, French en V, lignes graphiques, paillettes, velours : le nail art transforme une manucure en pièce unique.</p>
+              </div>
+              <figure class="step__fig frame frame--amande" style="--clip:url(#clip-amande);--ar:3/4;--ring:var(--magenta)">
+                <div class="frame__in"><div class="reveal"><img src="assets/img/photo-4.jpg" width="609" height="456" alt="Ongles courts rose fuchsia avec lignes blanches croisées" loading="lazy" decoding="async"></div></div>
+              </figure>
+            </article>
+            <article class="step" data-step>
+              <div class="step__text">
+                <h3 class="step__title">La finition</h3>
+                <p>Un dernier coup d’éclat, un regard sous la lumière, et vous repartez les mains prêtes à être regardées. Une pose qui tient bien, confirment les avis.</p>
+              </div>
+              <figure class="step__fig frame frame--amande" style="--clip:url(#clip-amande);--ar:3/4;--ring:var(--violet)">
+                <div class="frame__in"><div class="reveal"><img src="assets/img/photo-5.jpg" width="585" height="489" alt="Ongles amande menthe velours avec motifs de feuillages bleutés" loading="lazy" decoding="async"></div></div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="story__rail" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════ 4 · CRÉATIONS (défilement horizontal) ═════════════ -->
+    <section class="services" id="creations" aria-labelledby="services-title">
+      <div class="sep sep--diag" aria-hidden="true"></div>
+      <div class="services__pin">
+        <div class="services__track">
+          <div class="svc svc--intro">
+            <h2 class="display" id="services-title" data-split="words-skew">Les créations de la maison</h2>
+            <p>Capsules ou gel ? Aurélie conseille la technique, vous choisissez l’esprit. Cinq univers pour commencer, à glisser vers la droite.</p>
+            <svg class="svc__swipe" viewBox="0 0 120 24" aria-hidden="true"><path d="M2 12h112M104 4l10 8-10 8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <article class="svc svc--a" data-tilt>
+            <figure class="frame frame--amande" style="--clip:url(#clip-amande);--ar:4/5;--ring:var(--menthe)">
+              <div class="frame__in"><img class="parallax-img" src="assets/img/photo-1.jpg" width="609" height="342" alt="Ongles amande en pastel mat : menthe, rose poudré, blanc et lilas" loading="lazy" decoding="async"></div>
+            </figure>
+            <div class="svc__copy"><h3>Pastel mat</h3><p>Menthe, rose poudré, blanc, lilas : une palette de bonbons en finition mate, sur ongles amande.</p></div>
+            <span class="svc__bg" aria-hidden="true">Mat</span>
+          </article>
+
+          <article class="svc svc--b" data-tilt>
+            <figure class="frame frame--round" style="--ar:1;--ring:var(--magenta)">
+              <div class="frame__in"><img class="parallax-img" src="assets/img/photo-2.jpg" width="609" height="456" alt="Pose French en V blanc sur ongles amande rose nude" loading="lazy" decoding="async"></div>
+            </figure>
+            <div class="svc__copy"><h3>French en V</h3><p>Un V blanc dessiné sur un rose nude. La French classique, mais avec du mouvement.</p></div>
+            <span class="svc__bg" aria-hidden="true">V</span>
+          </article>
+
+          <article class="svc svc--c" data-tilt>
+            <figure class="frame frame--stiletto" style="--clip:url(#clip-stiletto);--ar:3/5;--ring:var(--violet)">
+              <div class="frame__in"><img class="parallax-img" src="assets/img/photo-3.jpg" width="606" height="810" alt="Ongles stiletto longs en violet pailleté et noir brillant" loading="lazy" decoding="async"></div>
+            </figure>
+            <div class="svc__copy"><h3>Stiletto glam</h3><p>Longueur affirmée, violet pailleté, noir laqué. Pour les soirs où l’on veut qu’on regarde les mains.</p></div>
+            <span class="svc__bg" aria-hidden="true">Glam</span>
+          </article>
+
+          <article class="svc svc--d" data-tilt>
+            <figure class="frame frame--arche" style="--clip:url(#clip-arche);--ar:5/6;--ring:var(--magenta)">
+              <div class="frame__in"><img class="parallax-img" src="assets/img/photo-4.jpg" width="609" height="456" alt="Ongles courts rose fuchsia avec lignes blanches croisées" loading="lazy" decoding="async"></div>
+            </figure>
+            <div class="svc__copy"><h3>Fuchsia &amp; lignes</h3><p>Un rose vitaminé, des traits blancs croisés, des ongles courts pleins d’énergie.</p></div>
+            <span class="svc__bg" aria-hidden="true">Rose</span>
+          </article>
+
+          <article class="svc svc--e" data-tilt>
+            <figure class="frame frame--losange" style="--clip:url(#clip-losange);--ar:1;--ring:var(--menthe)">
+              <div class="frame__in"><img class="parallax-img" src="assets/img/photo-5.jpg" width="585" height="489" alt="Ongles amande menthe velours avec motifs de feuillages bleutés" loading="lazy" decoding="async"></div>
+            </figure>
+            <div class="svc__copy"><h3>Velours &amp; relief</h3><p>Texture velours, feuillages bleutés, finitions en relief : un nail art à toucher des yeux.</p></div>
+            <span class="svc__bg" aria-hidden="true">3D</span>
+          </article>
+
+          <div class="svc svc--outro">
+            <p class="svc__outro-title">Tarifs et créneaux libres&nbsp;?</p>
+            <p>Tout se consulte et se réserve sur Planity, à toute heure.</p>
+            <a class="btn btn--mint btn--lg" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener" data-magnetic><span class="btn__fill"></span><span class="btn__label">Voir les disponibilités</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════ 5 · ATELIER (composez votre set) ═════════════ -->
+    <section class="atelier" id="atelier" aria-labelledby="atelier-title" data-glitter>
+      <div class="sep sep--drip" aria-hidden="true"></div>
+      <div class="atelier__wrap">
+        <div class="atelier__panel">
+          <h2 class="display" id="atelier-title" data-split="chars-drop">Composez votre set</h2>
+          <p class="atelier__lead">Choisissez une forme, une couleur, une finition. Gardez l’idée en tête, ou montrez-la à Aurélie le jour du rendez-vous.</p>
+
+          <form class="atelier__form" id="atelier-form" onsubmit="return false">
+            <fieldset>
+              <legend>Forme</legend>
+              <div class="opts" role="radiogroup">
+                <label class="opt"><input type="radio" name="shape" value="amande" checked><span>Amande</span></label>
+                <label class="opt"><input type="radio" name="shape" value="stiletto"><span>Stiletto</span></label>
+                <label class="opt"><input type="radio" name="shape" value="ovale"><span>Ovale</span></label>
+                <label class="opt"><input type="radio" name="shape" value="carre"><span>Carré</span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Couleur</legend>
+              <div class="swatches" role="radiogroup">
+                <label class="sw" style="--c:#05eccc"><input type="radio" name="color" value="#05eccc" data-name="Menthe" checked><span class="sw__dot"></span><span class="sw__name">Menthe</span></label>
+                <label class="sw" style="--c:#d93ea4"><input type="radio" name="color" value="#d93ea4" data-name="Magenta"><span class="sw__dot"></span><span class="sw__name">Magenta</span></label>
+                <label class="sw" style="--c:#a83ad1"><input type="radio" name="color" value="#a83ad1" data-name="Violet"><span class="sw__dot"></span><span class="sw__name">Violet</span></label>
+                <label class="sw" style="--c:#f4b6d8"><input type="radio" name="color" value="#f4b6d8" data-name="Rose poudré"><span class="sw__dot"></span><span class="sw__name">Rose poudré</span></label>
+                <label class="sw" style="--c:#fff6fb"><input type="radio" name="color" value="#fff6fb" data-name="Nacre"><span class="sw__dot"></span><span class="sw__name">Nacre</span></label>
+                <label class="sw" style="--c:#1a0b26"><input type="radio" name="color" value="#1a0b26" data-name="Noir laqué"><span class="sw__dot"></span><span class="sw__name">Noir laqué</span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Finition</legend>
+              <div class="opts" role="radiogroup">
+                <label class="opt"><input type="radio" name="finish" value="brillant" checked><span>Brillant</span></label>
+                <label class="opt"><input type="radio" name="finish" value="mat"><span>Mat</span></label>
+                <label class="opt"><input type="radio" name="finish" value="pailleté"><span>Pailleté</span></label>
+              </div>
+            </fieldset>
+          </form>
+
+          <p class="atelier__sum" aria-live="polite">Votre idée : <strong id="sum-shape">Amande</strong> · <strong id="sum-color">Menthe</strong> · <strong id="sum-finish">Brillant</strong></p>
+          <a class="btn btn--paper btn--lg" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener" data-magnetic><span class="btn__fill"></span><span class="btn__label">Réserver ce set</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <p class="atelier__note">Simulation indicative : le rendu final dépend des produits et de vos ongles.</p>
+        </div>
+
+        <div class="atelier__stage" aria-hidden="true">
+          <div class="atelier__arch">
+            <svg class="atelier__lattice" width="100%" height="100%"><rect width="100%" height="100%" fill="url(#lat-mint)"/></svg>
+            <svg class="hand" viewBox="0 30 424 290" role="img" aria-label="Aperçu des cinq ongles">
+              <defs>
+                <pattern id="glit" width="26" height="26" patternUnits="userSpaceOnUse">
+                  <circle cx="4" cy="6" r="1.1" fill="#fff"/><circle cx="17" cy="3" r="0.8" fill="#fff"/><circle cx="12" cy="14" r="1.3" fill="#fff"/><circle cx="22" cy="19" r="0.9" fill="#fff"/><circle cx="6" cy="22" r="0.8" fill="#fff"/>
+                </pattern>
+                <linearGradient id="gloss" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".35" stop-color="#fff" stop-opacity=".7"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+              </defs>
+              <g class="nailset">
+                <g class="nl" data-i="0" transform="translate(52 300) rotate(-34) scale(.8) translate(-50 -160)"><path class="nl__body" d=""/><path class="nl__gloss" d=""/><path class="nl__glit" d=""/></g>
+                <g class="nl" data-i="1" transform="translate(132 252) rotate(-13) scale(.98) translate(-50 -160)"><path class="nl__body" d=""/><path class="nl__gloss" d=""/><path class="nl__glit" d=""/></g>
+                <g class="nl" data-i="2" transform="translate(212 230) scale(1.1) translate(-50 -160)"><path class="nl__body" d=""/><path class="nl__gloss" d=""/><path class="nl__glit" d=""/></g>
+                <g class="nl" data-i="3" transform="translate(292 254) rotate(13) scale(1) translate(-50 -160)"><path class="nl__body" d=""/><path class="nl__gloss" d=""/><path class="nl__glit" d=""/></g>
+                <g class="nl" data-i="4" transform="translate(372 304) rotate(32) scale(.76) translate(-50 -160)"><path class="nl__body" d=""/><path class="nl__gloss" d=""/><path class="nl__glit" d=""/></g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════ 6 · CHIFFRES ═════════════ -->
+    <section class="stats" aria-labelledby="stats-title">
+      <div class="sep sep--lozenge" aria-hidden="true"></div>
+      <div class="stats__wrap">
+        <h2 class="display" id="stats-title" data-split="words-rise">Leurs chiffres, leurs mots</h2>
+        <ul class="stats__list">
+          <li class="row">
+            <p class="row__num"><span data-count="3">3</span><sup>+</sup><small>ans</small></p>
+            <p class="row__txt">de fidélité pour certaines clientes. <q>Fidèle cliente depuis 3 ans et jamais déçue&nbsp;!!</q> <cite>Valerie</cite></p>
+          </li>
+          <li class="row">
+            <p class="row__num"><span data-count="5">5</span><small>jours</small></p>
+            <p class="row__txt">d’ouverture par semaine : lundi, mardi, jeudi, vendredi et samedi.</p>
+          </li>
+          <li class="row">
+            <p class="row__num"><span data-count="1">1</span><small>h</small></p>
+            <p class="row__txt">pour une pose de capsules. <q>Le travail a été réalisé en seulement 1h&nbsp;!</q> <cite>Mégane</cite></p>
+          </li>
+          <li class="row">
+            <p class="row__num"><span data-count="1000">1000</span><small>%</small></p>
+            <p class="row__txt"><q>Je recommande à 1000%&nbsp;!!!</q> <cite>Julie</cite></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═════════════ 7 · GALERIE ═════════════ -->
+    <section class="gallery" id="galerie" aria-labelledby="gallery-title">
+      <div class="sep sep--arc" aria-hidden="true"></div>
+      <div class="gallery__wrap">
+        <h2 class="display gallery__title" id="gallery-title" data-split="chars-pop">Galerie</h2>
+        <p class="gallery__lead">Quelques sets sortis de la table de travail.</p>
+
+        <div class="gallery__grid">
+          <figure class="tile tile--1" data-tilt tabindex="0">
+            <div class="tile__shape" style="--clip:url(#clip-stiletto)"><div class="reveal" data-reveal="rise"><img class="parallax-img" src="assets/img/photo-3.jpg" width="606" height="810" alt="Ongles stiletto longs violet pailleté et noir brillant sur un pull en maille" loading="lazy" decoding="async"></div></div>
+            <figcaption>Stiletto pailleté</figcaption>
+          </figure>
+          <figure class="tile tile--2" data-tilt tabindex="0">
+            <div class="tile__shape tile__shape--round"><div class="reveal" data-reveal="circle"><img class="parallax-img" src="assets/img/photo-2.jpg" width="609" height="456" alt="Pose French en V blanc sur ongles amande rose nude, devant une rose" loading="lazy" decoding="async"></div></div>
+            <figcaption>French en V</figcaption>
+          </figure>
+          <figure class="tile tile--3" data-tilt tabindex="0">
+            <div class="tile__shape tile__shape--pill"><div class="reveal" data-reveal="left"><img class="parallax-img" src="assets/img/photo-1.jpg" width="609" height="342" alt="Ongles amande en pastel mat : menthe, rose poudré, blanc et lilas" loading="lazy" decoding="async"></div></div>
+            <figcaption>Pastel mat</figcaption>
+          </figure>
+          <figure class="tile tile--4" data-tilt tabindex="0">
+            <div class="tile__shape" style="--clip:url(#clip-arche)"><div class="reveal" data-reveal="rise"><img class="parallax-img" src="assets/img/photo-4.jpg" width="609" height="456" alt="Ongles courts rose fuchsia avec lignes blanches croisées" loading="lazy" decoding="async"></div></div>
+            <figcaption>Fuchsia &amp; lignes</figcaption>
+          </figure>
+          <figure class="tile tile--5" data-tilt tabindex="0">
+            <div class="tile__shape" style="--clip:url(#clip-losange)"><div class="reveal" data-reveal="circle"><img class="parallax-img" src="assets/img/photo-5.jpg" width="585" height="489" alt="Ongles amande menthe velours avec motifs de feuillages bleutés et pompon blanc" loading="lazy" decoding="async"></div></div>
+            <figcaption>Velours menthe</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════ 8 · AVIS ═════════════ -->
+    <section class="reviews" id="avis" aria-labelledby="reviews-title">
+      <div class="sep sep--diag-rev" aria-hidden="true"></div>
+      <div class="reviews__wrap">
+        <header class="reviews__head">
+          <h2 class="display" id="reviews-title" data-split="words-left">Ce qu’elles en disent</h2>
+          <p>Avis de clientes, reproduits mot pour mot.</p>
+        </header>
+
+        <div class="reviews__body">
+          <div class="reviews__tabs" role="tablist" aria-label="Choisir un avis" aria-orientation="vertical">
+            <button class="rtab" role="tab" id="tab-0" aria-selected="true" aria-controls="rev-0" type="button"><span>Mégane Laforgue</span></button>
+            <button class="rtab" role="tab" id="tab-1" aria-selected="false" aria-controls="rev-1" tabindex="-1" type="button"><span>Jennifer Caro</span></button>
+            <button class="rtab" role="tab" id="tab-2" aria-selected="false" aria-controls="rev-2" tabindex="-1" type="button"><span>Valerie Dumoustier</span></button>
+            <button class="rtab" role="tab" id="tab-3" aria-selected="false" aria-controls="rev-3" tabindex="-1" type="button"><span>Msnmel Masson</span></button>
+            <button class="rtab" role="tab" id="tab-4" aria-selected="false" aria-controls="rev-4" tabindex="-1" type="button"><span>Carla Prestot</span></button>
+            <button class="rtab" role="tab" id="tab-5" aria-selected="false" aria-controls="rev-5" tabindex="-1" type="button"><span>Julie Nucera</span></button>
+            <span class="rtab__bar" aria-hidden="true"><i></i></span>
+          </div>
+
+          <div class="reviews__stack">
+            <svg class="reviews__mark" aria-hidden="true"><use href="#i-quote"/></svg>
+            <blockquote class="rev is-active" role="tabpanel" id="rev-0" aria-labelledby="tab-0">
+              <p>J'ai adoré la prestation , prothésiste très avenante avec des très bons conseils , je voulais faire du gel pensant que ce serait adapté au vu de ma mauvaise expérience des capsules et finalement j'ai fait des capsules et je ne regrette pas du tout (à voir la tenue) . Elle a répondu totalement à mes attentes et ayant travailler avec ce soir je ne le aieds pas senti du tout .</p>
+              <p>Le travail est fait directement chez elle mais même si c'est le cas elle m'a mise très à l'aise et le travail a été réalisé en seulement 1h !</p>
+              <footer>Mégane Laforgue</footer>
+            </blockquote>
+            <blockquote class="rev" role="tabpanel" id="rev-1" aria-labelledby="tab-1" hidden>
+              <p>Une superbe prothésiste ongulaire ça fais des années que je fais avec Aurélie. Merci pour ses magnifiques pose que tu me fais à chaque fois hâte de faire aujourd'hui mes ongles 🤩</p>
+              <footer>Jennifer Caro</footer>
+            </blockquote>
+            <blockquote class="rev" role="tabpanel" id="rev-2" aria-labelledby="tab-2" hidden>
+              <p>Aurélie est une pépite, très professionnelle et minutieuse, elle est de très bons conseils et reproduit à la perfection ce qu'on lui demande et tout cela dans un accueil chaleureux. Fidèle cliente depuis 3 ans et jamais déçue !! Je recommande à 100%</p>
+              <footer>Valerie Dumoustier</footer>
+            </blockquote>
+            <blockquote class="rev" role="tabpanel" id="rev-3" aria-labelledby="tab-3" hidden>
+              <p>Tous étais parfait, je recommande à 100%. La pose étais magnifique et elle tien très bien  ☺️</p>
+              <footer>Msnmel Masson</footer>
+            </blockquote>
+            <blockquote class="rev" role="tabpanel" id="rev-4" aria-labelledby="tab-4" hidden>
+              <p>Très satisfait très bien accueilli ravis</p>
+              <footer>Carla Prestot</footer>
+            </blockquote>
+            <blockquote class="rev" role="tabpanel" id="rev-5" aria-labelledby="tab-5" hidden>
+              <p>J’y vais depuis quelques mois maintenant ! Je suis très satisfaite 🤗 Aurelie est top, hyper gentille, très à l’écoute! Je recommande à 1000% !!!</p>
+              <footer>Julie Nucera</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════ 9 · APPEL À L'ACTION ═════════════ -->
+    <section class="cta" id="rendez-vous" aria-labelledby="cta-title" data-glitter>
+      <div class="sep sep--arches-big" aria-hidden="true"></div>
+      <div class="cta__rows" aria-hidden="true">
+        <div class="cta__row" data-marquee="1"><div class="band__track"><span>Rendez-vous</span><span>Rendez-vous</span><span>Rendez-vous</span><span>Rendez-vous</span><span>Rendez-vous</span><span>Rendez-vous</span></div></div>
+        <div class="cta__row" data-marquee="-1"><div class="band__track"><span>Brest</span><span>Brest</span><span>Brest</span><span>Brest</span><span>Brest</span><span>Brest</span><span>Brest</span><span>Brest</span></div></div>
+      </div>
+      <div class="cta__wrap">
+        <h2 class="display" id="cta-title" data-split="words-flip">Et si on prenait rendez-vous&nbsp;?</h2>
+        <p class="cta__lead">Réservez en ligne sur Planity, ou appelez pendant les horaires d’ouverture.</p>
+        <div class="cta__actions">
+          <a class="btn btn--ink btn--xl" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener" data-magnetic data-confetti><span class="btn__fill"></span><span class="btn__label">Réserver en ligne</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="cta__tel" href="tel:+33623905449" data-confetti><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>06 23 90 54 49</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════ 10 · NOUS TROUVER ═════════════ -->
+    <section class="find" id="contact" aria-labelledby="find-title">
+      <div class="sep sep--drip-light" aria-hidden="true"></div>
+      <div class="find__wrap">
+        <div class="find__info">
+          <h2 class="display" id="find-title" data-split="words-mask">Nous trouver</h2>
+          <address class="find__addr">
+            <svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span>A.Nails Ongles Prothésiste Ongulaire<br>61 Rue de Lanninguer<br>29200 Brest</span>
+          </address>
+          <p class="find__tel"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><a class="ulink" href="tel:+33623905449">06 23 90 54 49</a></p>
+
+          <table class="hours" aria-label="Horaires d'ouverture">
+            <tbody>
+              <tr data-day="1"><th scope="row">Lundi</th><td>09:30 – 19:00</td></tr>
+              <tr data-day="2"><th scope="row">Mardi</th><td>09:30 – 19:00</td></tr>
+              <tr data-day="3" class="is-closed"><th scope="row">Mercredi</th><td>Fermé</td></tr>
+              <tr data-day="4"><th scope="row">Jeudi</th><td>12:30 – 19:00</td></tr>
+              <tr data-day="5"><th scope="row">Vendredi</th><td>11:00 – 19:00</td></tr>
+              <tr data-day="6"><th scope="row">Samedi</th><td>09:30 – 14:00</td></tr>
+              <tr data-day="0" class="is-closed"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+            </tbody>
+          </table>
+          <p class="find__note">Les horaires peuvent être modifiés.</p>
+          <a class="btn btn--ink btn--lg" href="https://maps.app.goo.gl/89XiCBpKGDBKvMV59" target="_blank" rel="noopener" data-magnetic><span class="btn__fill"></span><span class="btn__label">Ouvrir dans Google Maps</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <div class="find__map">
+          <div class="map-frame">
+            <iframe title="Carte Google Maps : A.Nails Ongles, 61 rue de Lanninguer à Brest" src="https://www.google.com/maps?q=61+Rue+de+Lanninguer,+29200+Brest&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="map-frame__link" href="https://maps.app.goo.gl/89XiCBpKGDBKvMV59" target="_blank" rel="noopener" aria-label="Ouvrir l'adresse dans Google Maps (nouvel onglet)"><span>Ouvrir dans Google Maps <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═════════════ 11 · FOOTER ═════════════ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <p class="foot__word" aria-hidden="true" data-split="chars-foot">A.Nails</p>
+      <p class="foot__tag">Ongles <i></i> Prothésiste ongulaire <i></i> Brest</p>
+    </div>
+    <div class="foot__grid">
+      <div>
+        <h2 class="foot__h">Adresse</h2>
+        <p>61 Rue de Lanninguer<br>29200 Brest</p>
+      </div>
+      <div>
+        <h2 class="foot__h">Contact</h2>
+        <p><a class="ulink" href="tel:+33623905449">06 23 90 54 49</a></p>
+        <p><a class="ulink" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener">Planity</a></p>
+      </div>
+      <div>
+        <h2 class="foot__h">Explorer</h2>
+        <p><a class="ulink" href="#rituel">Rituel</a> · <a class="ulink" href="#creations">Créations</a></p>
+        <p><a class="ulink" href="#galerie">Galerie</a> · <a class="ulink" href="#avis">Avis</a></p>
+      </div>
+      <a class="foot__top-btn" href="#accueil" aria-label="Revenir en haut de la page"><svg class="ic" aria-hidden="true"><use href="#i-up"/></svg></a>
+    </div>
+    <p class="foot__legal">© <span id="year">2026</span> A.Nails Ongles Prothésiste Ongulaire · Brest</p>
+  </footer>
+
+  <!-- Bouton flottant mobile -->
+  <div class="fab" id="fab">
+    <a class="fab__call" href="tel:+33623905449"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Appeler</span></a>
+    <a class="fab__book" href="https://www.planity.com/anails-ongles-prothesiste-ongulaire-29200-brest" target="_blank" rel="noopener"><span>Réserver</span></a>
+  </div>
+
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/vendor/SplitText.min.js" defer></script>
+  <script src="assets/vendor/MorphSVGPlugin.min.js" defer></script>
+  <script src="assets/vendor/lenis.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
